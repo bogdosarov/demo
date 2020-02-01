@@ -5,7 +5,8 @@ const ButtonView = styled.div`
   position: relative;
   background: #fff;
   border-radius: 28%;
-  box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.1);
+  // box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   width: 30%;
   margin: 0 1.5% 0 1.5%;
   
@@ -17,7 +18,7 @@ const ButtonView = styled.div`
   
   &.active {
     background-color: #65AAF1;
-    box-shadow: 0 5px 15px -5px rgba(0, 0, 0, .8);
+    // box-shadow: 0 5px 15px -5px rgba(0, 0, 0, .8);
     
     .icon {
       color: #fff;
