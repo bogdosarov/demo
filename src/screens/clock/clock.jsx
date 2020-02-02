@@ -14,7 +14,7 @@ const ClockWrapper = styled.div`
 const ClockView = ({ history }) => {
   const scale = (window.screen.availHeight / 200) * 0.9 // 200 default clock width
   useEffect(() => {
-    const exitAction = Api.subscribe(ACTIONS.EXIT, () => {
+    const exitAction = Api.subscribe(ACTIONS.BACK, () => {
       history.push('/')
     })
 

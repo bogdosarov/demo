@@ -5,7 +5,7 @@ import {ACTIONS, Api} from "api/api";
 
 const CompassView = ({ history }) => {
   useEffect(() => {
-    const exitAction = Api.subscribe(ACTIONS.EXIT, () => {
+    const exitAction = Api.subscribe(ACTIONS.BACK, () => {
       history.push('/')
     })
 
